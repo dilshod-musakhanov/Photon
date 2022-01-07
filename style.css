@@ -31,6 +31,11 @@ header h2 {
   border: none;
   border: 2px solid rgb(41, 85, 126);
 }
+.search-form input:focus {
+  outline: none !important;
+  border-color: rgb(41, 85, 126);
+  box-shadow: 0 0 1px rgb(41, 85, 126);
+}
 .search-form button {
   border: none;
   padding: 0.5rem;
